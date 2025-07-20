@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)   # error if the compiler can’t do C++20
 set(CMAKE_CXX_EXTENSIONS OFF)         # use -std=c++20, not -std=gnu++20
 
 
-project(hello LANGUAGES CXX)
+project(myapp LANGUAGES CXX)
 
-add_executable(hello main.cpp)
+add_executable(myapp main.cpp)
