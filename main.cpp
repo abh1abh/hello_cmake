@@ -1,5 +1,10 @@
 #include <iostream>
 int main() {
-    std::cout << "Hello, world!\n";
+
+    int i = 0;
+    while (i < 100){
+        std::cout << "Hello, world!\n";
+        i++;
+    }
     return 0;
 }
